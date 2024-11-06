@@ -1,0 +1,56 @@
+<!--Codigo Certo-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Portfólio de Desenvolvimento Web</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="projects.html">Projetos</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Sou desenvolvedor web com experiência em HTML, CSS e JavaScript.</p>
+            <p>Meu foco é criar interfaces amigáveis e responsivas para diferentes plataformas.</p>
+        </section>
+        
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <article>
+                <h3>Projeto 1</h3>
+                <img src="project1.jpg" alt="Imagem do projeto 1">
+                <p>Descrição do projeto 1: Um sistema de gerenciamento de tarefas desenvolvido com tecnologias modernas.</p>
+                <a href="https://github.com/meuprojeto1">Veja o código no GitHub</a>
+            </article>
+            
+            <article>
+                <h3>Projeto 2</h3>
+                <img src="project2.jpg" alt="Imagem do projeto 2">
+                <p>Descrição do projeto 2: Uma aplicação de controle de despesas pessoais.</p>
+                <a href="https://github.com/meuprojeto2">Veja o código no GitHub</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Nome</p>
+        <p>Conecte-se comigo nas redes sociais:</p>
+        <a href="http://twitter.com">Twitter</a>
+        <a href="http://linkedin.com">LinkedIn</a>
+    </footer>
+</body>
+</html>
